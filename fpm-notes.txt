@@ -1,0 +1,2 @@
+/usr/local/bin/fpm -s dir -t deb -a all  -v 1.0 -n wstunnel -C wstunnel -m edwin@rightscale.com --prefix=/opt/wstunnel --vendor RightScale -f --after-install add-symlink.sh --post-uninstall remove-symlink.sh
+
